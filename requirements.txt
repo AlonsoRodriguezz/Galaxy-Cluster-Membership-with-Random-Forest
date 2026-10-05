@@ -1,9 +1,9 @@
 jupyter
-numpy
-pandas
-joblib
-seaborn
-matplotlib
-astropy
-scikit-learn
-pyarrow
+numpy>=2.0.0
+pandas>=2.2.0
+scikit-learn>=1.7.2
+joblib>=1.4.0
+seaborn>=0.13.0
+matplotlib>=3.9.0
+astropy>=6.0.0
+pyarrow>=18.0.0
