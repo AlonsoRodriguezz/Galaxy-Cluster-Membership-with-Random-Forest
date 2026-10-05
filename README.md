@@ -4,6 +4,8 @@
 
 We use a Random Forest classifier to identify galaxy cluster members out to large cluster-centric distances ($5\ \mathrm{R}_{200}$), developed in the **CHANCES (CHileAN Cluster galaxy Evolution Survey)** [Haines et al. (2023)](https://doi.org/10.18727/0722-6691/5308), this tool leverages mock catalogs from the CHANCES Low - $z$ sub-survey. By using distinct physically motivated features, the model achieves high completeness and standard purity, making it ideal to apply as a cleaning step to study galaxy pre-processing. **You can read the full thesis [here](thesis/Rodriguez_Thesis_2026.pdf)**
 
+This pipeline has been updated, you can inspect the **[new pipeline's repository here](https://github.com/AlonsoRodriguezz/CHANCES-LOWZ-MEMBERSHIP)**
+
 ---
 
 ## Key Updates
@@ -22,7 +24,7 @@ The pipeline consists of the following steps:
     * Calculation of Local Density ($\Sigma_{10}$).
     * Normalization of Projected Phase Space coordinates ($R_{norm}$, $V_{norm}$).
 4.  **Training:** Random Forest classifier with hyperparameter optimization (GridSearchCV) and class balancing (SMOTE/Random Undersampling strategies tested), leading to 6 model variants.
-5.  **Evaluation:** Validation using Leave-One-Group-Out cross-validation scheme to ensure generalization across different clusters.*(A flowchart of the methodology will be added here soon)*
+5.  **Evaluation:** Validation using Leave-One-Group-Out cross-validation scheme to ensure generalization across different clusters.
 
 ## Performance
 
