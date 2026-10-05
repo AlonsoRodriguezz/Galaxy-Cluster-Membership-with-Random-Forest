@@ -56,7 +56,7 @@ python RF_implementation.py
 ## Repository Structure 
 
 * `notebooks/`: Jupyter notebooks containing EDA and step-by-step model training.
-* `results/`: Model clone, results file and generated plots for every model.
+* `results/`: Generated plots for every model.
 * `thesis/`: Full PDF document of the undergraduate thesis.
 
 ---
