@@ -36,6 +36,8 @@ The model prioritizes Completeness while maintaining a Purity comparable to dyna
 | **Purity** | **~0.66** | Consistent with state-of-the-art approaches. |
 | **F1-Score** | **~0.79** | High overall classification success. |*(See `results/figures` for the rest of the standard ML metrics.)*
 
+ > **Note:** This model's results correspond to an older version of the pipeline. The new pipeline results can be consulted in *Piraino-Cerda et al. (in prep)*.
+
 ## Installation & Usage
 
 1.  **Clone the repository:**    
